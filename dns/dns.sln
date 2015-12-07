@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dns", "dns\dns.vcproj", "{36697ACF-8278-4537-BD60-28C2C73587B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "url", "url\url.vcproj", "{81AA4D9C-E22B-42BF-A332-67E3498D059B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36697ACF-8278-4537-BD60-28C2C73587B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36697ACF-8278-4537-BD60-28C2C73587B7}.Debug|Win32.Build.0 = Debug|Win32
+		{36697ACF-8278-4537-BD60-28C2C73587B7}.Release|Win32.ActiveCfg = Release|Win32
+		{36697ACF-8278-4537-BD60-28C2C73587B7}.Release|Win32.Build.0 = Release|Win32
+		{81AA4D9C-E22B-42BF-A332-67E3498D059B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81AA4D9C-E22B-42BF-A332-67E3498D059B}.Debug|Win32.Build.0 = Debug|Win32
+		{81AA4D9C-E22B-42BF-A332-67E3498D059B}.Release|Win32.ActiveCfg = Release|Win32
+		{81AA4D9C-E22B-42BF-A332-67E3498D059B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
