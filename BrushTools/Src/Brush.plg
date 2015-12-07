@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Brush - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Brush.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Administrator\Desktop\tenshine\BrushTools\trunk\Src\Brush.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD4CC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Brush.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\tenshine\BrushTools\trunk\Src\Brush.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD4CC.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD4DD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Brush.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\tenshine\BrushTools\trunk\Src\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD4DD.tmp" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:no /pdb:"Release/Brush.pdb" /machine:I386 /out:"Release/Brush.exe"  .\Release\Brush.obj .\Release\StdAfx.obj .\Release\Brush.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Brush.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Brush.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
